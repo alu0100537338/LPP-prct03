@@ -2,9 +2,9 @@
 
 21. Con las dobles comillas se interpola, y con las simples no.
 
-22. %q funciona como commillas simples. %q{hello world\n} es "hello world\\n". &q{'a' 'b' 'c'} es "hello world\\n".
+22. %q funciona como comillas simples. %q{hello world\n} es "hello world\\n". &q{'a' 'b' 'c'} es "'a' 'b' 'c'".
 
-23. %Q funciona como comillas dobles e interpola. %Q{hello world\n} es "hello world\n". %Q{"a" "b" "c"} es "hello world\\n".
+23. %Q funciona como comillas dobles e interpola. %Q{hello world\n} es "hello world\n". %Q{"a" "b" "c"} es ""a" "b" "c"".
 
 24. "--4--\n--2--\n"
 
